@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>
+Form
+</title>
+</head>
+<body>
+<fieldset>
+<legend> <b> <i> <u> Personal Information </b> </i> </u> </legend>
+<label> Name: </label> <input type="text" maxlength="10" minlength="2"> </input> <br> <br>
+<label> Email: </label> <input type="text" maxlength="20" minlength="2"> </input> <br> <br>
+</fieldset> <br> <br>
+<fieldset>
+<legend> <b> <i> <u> Gender </b> </i> </u> </legend>
+<input type="radio" name="Male"> Male </input> <br>
+<input type="radio" name="Female"> Female </input>
+</fieldset> <br> <br>
+<fieldset>
+<legend> <b> <i> <u> Hobbies </b> </i> </u> </legend>
+<input type="checkbox" name="Reading"> Reading </input> <br>
+<input type="checkbox" name="Travelling "> Travelling </input> <br>
+<input type="checkbox" name="Gaming "> Gaming</input> <br>
+</fieldset> <br> <br>
+<fieldset>
+<legend> <b> <i> <u> Upload a document </b> </i> </u> </legend>
+<label> Choose a file: </label> <br> <br>
+<input type="file" name="file upload" accept="image*">
+</fieldset> <br> <br>
+<fieldset>
+<legend> <b> <i> <u> Preferances </b> </i> </u> </legend>
+<label> Choose an option: </label> <br> <br>
+<select id="Choose an option:" name="Choose an option:"> 
+<option value ="option 1"> option 1 </option>
+<option value ="option 2"> option 2 </option>
+<option value ="option 3"> option 3 </option>
+<option value ="option 4"> option 4 </option>
+</select>
+</fieldset> <br> <br>
+<input type="submit">
+</body>
+</html>
