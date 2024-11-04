@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>  frames </title>
+</head>
+<frameset rows="50,50">
+<frame src="https://www.amazon.com">
+<frameset cols="25,75">
+<frame src="https://www.amazon.com">
+<frame src="https://www.flipkart.com/">
+</frameset>
+</html>                                                                                                                                                                                                                                                                                                                                                                                          
